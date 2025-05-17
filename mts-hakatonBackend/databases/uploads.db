@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `Uploads` (
+  `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+  `filename` TEXT NOT NULL,
+  `path` TEXT NOT NULL,
+  `url` TEXT NOT NULL,
+  `defectTypes` TEXT, -- JSON-строка
+  `createdAt` DATETIME,
+  `updatedAt` DATETIME
+);

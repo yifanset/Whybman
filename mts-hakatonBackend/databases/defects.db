@@ -1,0 +1,19 @@
+CREATE TABLE `DefectImages` (
+  `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+  `filename` TEXT NOT NULL,
+  `processedImage` TEXT NOT NULL,
+  `matchPercent` INTEGER NOT NULL,
+  `confidence` INTEGER NOT NULL,
+  `createdAt` DATETIME,
+  `updatedAt` DATETIME
+);
+
+-- Таблица Defects
+CREATE TABLE `Defects` (
+  `id` INTEGER PRIMARY KEY AUTOINCREMENT,
+  `type` TEXT NOT NULL,
+  `region` TEXT NOT NULL,
+  `correctionSvg` TEXT NOT NULL,
+  `DefectImageId` INTEGER,
+  FOREIGN KEY (`DefectImageId`) REFERENCES `DefectImages` (`id`)
+);

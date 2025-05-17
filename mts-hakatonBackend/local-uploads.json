@@ -1,0 +1,22 @@
+[
+  {
+    "number": 0,
+    "createdAt": "2025-04-24T08:25:57.731Z",
+    "files": [
+      {
+        "name": "6157743619.png",
+        "path": "uploads\\1745483157728-6157743619.png",
+        "url": "http://localhost:5000/uploads\\1745483157728-6157743619.png"
+      },
+      {
+        "name": "free-icon-fox-4569932.png",
+        "path": "uploads\\1745483157729-free-icon-fox-4569932.png",
+        "url": "http://localhost:5000/uploads\\1745483157729-free-icon-fox-4569932.png"
+      }
+    ],
+    "defectTypes": [
+      2,
+      3
+    ]
+  }
+]
