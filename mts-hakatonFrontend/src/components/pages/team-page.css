@@ -1,0 +1,18 @@
+.team-page__photo{
+    display: flex;
+    /* display: none; */
+
+}
+
+.team-page__photo1{
+    display: none;
+}
+
+@media (max-width: 1450px){
+    .team-page__photo{
+      display: none;
+    }
+    .team-page__photo1{
+      display: flex;
+    }
+  }

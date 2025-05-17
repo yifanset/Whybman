@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "filename": "image1.jpg",
+    "processedImage": "/images/image1.jpg",
+    "matchPercent": 87,
+    "confidence": 95,
+    "defects": [
+      {
+        "id": 101,
+        "type": "царапина",
+        "region": "верхний левый угол",
+        "correctionSvg": "/svg/defect_101.svg"
+      },
+      {
+        "id": 102,
+        "type": "пятно",
+        "region": "центр",
+        "correctionSvg": "/svg/defect_102.svg"
+      }
+    ]
+  }
+]
